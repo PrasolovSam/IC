@@ -9,33 +9,83 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 <body>
-    <div class="navbar" id="navbar">
-        <a href="index.html" class="active">IT & Транспорт</a>
-        <div class="dropdown">
-            <button class="dropbtn">Публикации<i class="fa fa-caret-down"></i></button>
-            <div class="dropdown-content">
-                <a href="#">Правила оформления</a>
-                <a href="#">Архив</a>
-                <a href="#">Состав комиссии</a>
-            </div>
-            <button class="dropbtn">Конкурс<i class="fa fa-caret-down"></i></button>
-            <div class="dropdown-content">
-                <a href="#">Положение о конкурсе</a>
-                <a href="#">Положение о конкурсной комиссии</a>
-                <a href="#">Качественные критерии</a>
-                <a href="#">Требования к работам</a>
-                <a href="#">Победители</a>
-                <a href="#">Список конкурсов</a>
-            </div>
+    <div id="whole">
+        <div class="wrapper form-padding">
+            <header class="header" id="top">
+                <nav class="navbar navbar-default navbar-fixed top" id="w0" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class=navbar-brand href="index.html">IT & Транспорт</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="w0-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">Публикации
+                                        <b class="caret"></b>
+                                    </a>
+                                    <ul class="dropdown-menu" id="w2">
+                                        <li>
+                                            <a href="#" tabindex="-1">Правила оформления</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" tabindex="-1">Архив</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" tabindex="-1">Состав комиссии</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">Конкурс
+                                        <b class="caret"></b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#" tabindex="-1">Положение о конкурсе</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" tabindex="-1">Положение о конкурсной комиссии</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" tabindex="-1">Качественные крнитерии</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" tabindex="-1">Требования к работам</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" tabindex="-1">Победители</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" tabindex="-1">Список конкурсов</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Контакты</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav navbar-right nav">
+                                <li>
+                                    <a href="">
+                                        <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
+                                        Вход
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
         </div>
-        <a href="#">Контакты</a>
-        <a href="#" class="right">Вход</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
     </div>
 </body>
 </html>
